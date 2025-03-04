@@ -1,0 +1,52 @@
+# Alacritty Theme File (Sunset)
+[colors]
+
+# Default colors
+[colors.primary]
+background = "#2e1a47" # Dark purple
+foreground = "#ffd47e" # Light orange
+
+# Cursor colors
+[colors.cursor]
+text = "#2e1a47"
+cursor = "#ffd47e"
+
+# Normal colors
+[colors.normal]
+black   = "#1a1423"
+red     = "#ff6b6b"
+green   = "#ffe66d"
+yellow  = "#ffb677"
+blue    = "#6a0572"
+magenta = "#9b5de5"
+cyan    = "#4ecdc4"
+white   = "#f8f9fa"
+
+# Bright colors
+[colors.bright]
+black   = "#3a1f5d"
+red     = "#ff8787"
+green   = "#fff6a5"
+yellow  = "#ffd166"
+blue    = "#8e44ad"
+magenta = "#d4a5ed"
+cyan    = "#6effe6"
+white   = "#ffffff"
+
+# Dim colors
+[colors.dim]
+black   = "#130f1d"
+red     = "#cc4a4a"
+green   = "#ccbf52"
+yellow  = "#cc8e45"
+blue    = "#4a034d"
+magenta = "#7a2a99"
+cyan    = "#3ea6a6"
+white   = "#dcdcdc"
+
+# Selection colors
+[colors.selection]
+text = "CellBackground"
+background = "#6a0572"
+
+

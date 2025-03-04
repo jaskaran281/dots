@@ -1,0 +1,16 @@
+matches:
+  - trigger: ":eyu"
+    replace: "ü"
+  - trigger: ":Eyu"
+    replace: "Ü"
+  - trigger: ":ss"
+    replace: "ß"
+  - trigger: ":eyy"
+    replace: "ä"
+  - trigger: ":Eyy"
+    replace: "Ä"
+  - trigger: ":eyo"
+    replace: "ö"
+  - trigger: ":Eyo"
+    replace: "Ö"
+

@@ -1,0 +1,40 @@
+# Alacritty Configuration File
+import = [
+
+  # "~/.config/alacritty/solarized.toml"
+  #uncomment the flavour you want below:
+ # "~/.config/alacritty/catppuccin-latte.toml"
+  # "~/.config/alacritty/catppuccin-frappe.toml"
+  # "~/.config/alacritty/catppuccin-macchiato.toml"
+  "~/.config/alacritty/catppuccin-mocha.toml"
+  # "~/.config/alacritty/gruvbox_light.toml" 
+  # "~/.config/alacritty/gruvbox.toml"
+  # "~/.config/alacritty/rose-pine-dawn.toml"
+  # "~/.config/alacritty/whale.toml"
+]
+
+# Other Alacritty configurations
+# You can add other configurations here
+# Configuration for Alacritty, the GPU enhanced terminal emulator
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+bold = { family = "JetBrainsMono Nerd Font", style = "Bold" }
+italic = { family = "JetBrainsMono Nerd Font", style = "Italic" }
+bold_italic = { family = "JetBrainsMono Nerd Font", style = "Bold Italic" }
+
+size = 11
+
+[font.offset]
+x = 0
+y = 0
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+padding = {x = 10, y = 10}
+opacity = 0.8
